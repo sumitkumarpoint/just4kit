@@ -28,3 +28,31 @@ form {
 .center {
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100%;
+        margin: auto;
+        /*padding-top: 5%;*/
+    }
+
+    .form-fields input,textarea {
+        width: 100%;
+        text-align: center;
+        border-right: 5px;
+        margin: 10px 0px 10px 0px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+    }
+
+    .submit-btn input {
+        width: 30%;
+        margin: auto;
+        border: 1px;
+        border-radius: 2px;
+        padding: 4px;
+        outline: none;
+    }
+}
