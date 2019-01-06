@@ -2,13 +2,33 @@
 <html lang="en">
 <head>
     <% include partials/head %>
+    <link type="text/css" rel="stylesheet" href="/stylesheets/contact.css">
+
 </head>
 <body>
 <% include partials/menu %>
 <div class="container-fluid bg-3 text-center">
     <h3><%= page %></h3><br>
     <div class="row">
+        <form method="post" action="/login">
+            <fieldset>
 
+
+                <div class="form-fields center">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="form-fields center">
+                    <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="submit-btn center">
+                    <textarea placeholder="Write Here!"></textarea>
+                </div>
+                <div class="submit-btn center">
+                    <input type="submit" onclick="dosome();" value="Send">
+                </div>
+
+            </fieldset>
+        </form>
     </div>
 </div>
 </body>
