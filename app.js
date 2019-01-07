@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about-us');
 var contactRouter = require('./routes/contact-us');
-
+var mailer=require('./mailer/sendmail')
 var app = express();
 
 // view engine setup
@@ -25,7 +25,10 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/about-us', aboutRouter);
 app.use('/contact-us', contactRouter);
-
+app.post('/send',function (req, res) {
+    var data={'email': req.body.email,'subject': 'contact us','text': req.body.text}
+    mailer(data);
+})
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

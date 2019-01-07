@@ -6,4 +6,5 @@ router.get('/', function(req, res, next) {
     res.render('contact-us', {page:'Contact Us', menuId:'contact'});
 });
 
+
 module.exports = router;
