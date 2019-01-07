@@ -26,7 +26,11 @@ app.use('/users', usersRouter);
 app.use('/about-us', aboutRouter);
 app.use('/contact-us', contactRouter);
 app.post('/send',function (req, res) {
-    var data={'email': req.body.email,'subject': 'contact us','text': req.body.text}
+    var data={
+        'email': 'sumitkumarpoint@gmail.com',
+        'subject': 'contact us by '+req.body.name+'('+req.body.email+')',
+        'text': req.body.text
+    }
     mailer(data);
 })
 // catch 404 and forward to error handler
