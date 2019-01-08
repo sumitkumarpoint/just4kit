@@ -31,7 +31,7 @@ app.post('/send',function (req, res) {
         'subject': 'contact us by '+req.body.name+'('+req.body.email+')',
         'text': req.body.text
     }
-    mailer(data);
+    mailer(data,res);
 })
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

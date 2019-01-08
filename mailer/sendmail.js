@@ -7,7 +7,7 @@ var transporter = nodemailer.createTransport({
         pass: 'Smtkmr12@'
     }
 });
-function email(data) {
+function email(data,res) {
     var mailOptions = {
         from: 'sumit.k@algowire.com',
         to: data.email,
@@ -20,6 +20,7 @@ function email(data) {
             console.log(error);
         } else {
             console.log('Email sent: ' + info.response);
+            res.redirect('contact-us');
         }
     });
 }
