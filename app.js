@@ -9,8 +9,8 @@ var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about-us');
 var contactRouter = require('./routes/contact-us');
 var mailer=require('./mailer/sendmail')
+var application=require('./controller/application')
 var app = express();
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
