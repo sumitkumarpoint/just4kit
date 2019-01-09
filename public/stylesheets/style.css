@@ -52,3 +52,9 @@ a {
   text-align: center;
   background-color: rgb(35, 28, 28,0.6);
 }
+.menu a{
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
