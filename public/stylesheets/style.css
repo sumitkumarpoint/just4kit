@@ -30,7 +30,7 @@ a {
   top: 0;
 }
 .navbar-nav  li a:hover {
-  color: white !important;
+  color: #777 !important;
 }
 .active a {
   color: #777 !important;;
