@@ -1,5 +1,5 @@
 body {
-  padding: 10px;
+  /*padding: 10px;*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -11,6 +11,9 @@ a {
   background-color: #ffffff;
   color: #555555;
 }
+/*.bg-3:hover{*/
+  /*background-color: #777*/
+/*}*/
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -23,10 +26,29 @@ a {
   margin-bottom: 0;
   font-size: 12px;
   letter-spacing: 5px;
+  position: sticky;
+  top: 0;
 }
 .navbar-nav  li a:hover {
-  color: #1abc9c !important;
+  color: white !important;
 }
-.active>a {
-  color: #1abc9c !important;;
+.active a {
+  color: #777 !important;;
+}
+.nav-color{
+
+  background-color: #231c1c;
+}
+.active>a{
+  background-color: #231c1c;
+}
+
+.img-home{
+  width: 100%;
+}
+.nav-pro{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(35, 28, 28,0.6);
 }
