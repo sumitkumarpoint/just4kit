@@ -58,3 +58,8 @@ a {
 .navbar-default .navbar-nav>li>a {
   color: white;
 }
+.navbar-default .navbar-brand {
+  color: #eadada;
+  border: 1px solid;
+  border-radius: 4px;
+}
