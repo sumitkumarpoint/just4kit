@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36217d74-2407-4daf-904d-503a704e90ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/code.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/javascripts/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact-us.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact-us.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/head.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/menu.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/loader.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loader.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="loader.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/loader.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -103,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/contact.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="357">
               <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
@@ -191,8 +182,8 @@
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/public/javascripts/menu.js" />
         <option value="$PROJECT_DIR$/views/contact-us.ejs" />
-        <option value="$PROJECT_DIR$/public/stylesheets/loader.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/contact.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/loader.css" />
       </list>
     </option>
   </component>
@@ -307,12 +298,12 @@
       <workItem from="1546770524313" duration="6902000" />
       <workItem from="1546840240931" duration="11408000" />
       <workItem from="1546951002873" duration="2653000" />
-      <workItem from="1547013113587" duration="15650000" />
+      <workItem from="1547013113587" duration="15951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36613000" />
+    <option name="totallyTimeSpent" value="36914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -662,17 +653,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/loader.css">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/contact.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/contact.css">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/loader.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>

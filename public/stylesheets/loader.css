@@ -4,8 +4,8 @@
     width: 64px;
     height: 64px;
     position: fixed;
-    top: 48% !important;
-    left: 48% !important;
+    top: 45% !important;
+    left: 45% !important;
     z-index: 10001;
 }
 .lds-ripple div {
