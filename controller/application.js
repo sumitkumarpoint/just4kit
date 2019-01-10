@@ -26,4 +26,9 @@ function create(data) {
     const kitty = new Contact({ email: data.email,name: data.name,text: data.text });
     kitty.save().then(() => console.log('meow'));
 }
-module.exports=create
+
+function save(data) {
+    const kitty = new Contact({ email: data.email,name: data.name,text: data.text });
+    kitty.save().then(() => console.log('meow'));
+}
+module.exports={save:save,create:create}
