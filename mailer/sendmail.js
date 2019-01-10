@@ -9,7 +9,7 @@ var transporter = nodemailer.createTransport({
 });
 function email(data,res) {
     var mailOptions = {
-        from: 'sumit.k@algowire.com',
+        from: 'sumitkumarpoint@gmail.com',
         to: data.email,
         subject: data.subject,
         text: data.text

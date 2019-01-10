@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about-us');
 var contactRouter = require('./routes/contact-us');
 var mailer=require('./mailer/sendmail')
-// var application=require('./controller/application')
+var application=require('./controller/application')
 var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -29,8 +29,10 @@ app.post('/send',function (req, res) {
     var data={
         'email': 'sumitkumarpoint@gmail.com',
         'subject': 'contact us by '+req.body.name+'('+req.body.email+')',
-        'text': req.body.text
+        'text': req.body.text,
+        'name': req.body.name
     }
+    application(data);
     mailer(data,res);
 })
 // catch 404 and forward to error handler
