@@ -100,3 +100,18 @@ a {
 
   }
 }
+.flash{
+  text-align: center;
+}
+.flash>span{
+  background-color: green;
+  display: inline;
+  padding: 6px;
+  position: fixed;
+  z-index: 1;
+  margin: auto;
+  text-align: center;
+  top: 5%;
+  color: white;
+  border-radius: 3px;
+}
