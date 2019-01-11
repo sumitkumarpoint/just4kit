@@ -3,14 +3,20 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
+var session = require('express-session');
+var flash = require('connect-flash');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about-us');
 var contactRouter = require('./routes/contact-us');
 var mailer=require('./mailer/sendmail')
+// var controller=require('./controller/application')
 var db=require('./model/db')
 var app = express();
+
+app.use(cookieParser('secret'));
+app.use(session({cookie: { maxAge: 60000 }}));
+app.use(flash());
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -25,7 +31,10 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/about-us', aboutRouter);
 app.use('/contact-us', contactRouter);
+// app.controller;
+
 app.post('/send',function (req, res) {
+    req.flash('success', 'Mail successfully sent!');
     var data={
         'sender': 'sumitkumarpoint@gmail.com',
         'email': req.body.email,

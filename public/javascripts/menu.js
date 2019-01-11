@@ -10,3 +10,6 @@ $('.menu').click(function () {
     showLoader();
     return;
 });
+setTimeout(function () {
+    $('.flash').css({'display':'none'});
+},5000);
