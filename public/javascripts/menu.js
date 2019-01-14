@@ -16,3 +16,4 @@ $('.flash span').css({'position': 'fixed', 'top': '5%','left':l+'px', 'padding':
 setTimeout(function () {
     $('.flash').css({'display':'none'});
 },5000);
+var a=10;

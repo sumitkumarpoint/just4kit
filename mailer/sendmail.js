@@ -3,14 +3,15 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'sumit.k@algowire.com',
+        user: 'help20four7@gmail.com',
         pass: 'Smtkmr12@'
     }
 });
 function email(data,res) {
     var mailOptions = {
         from: 'sumitkumarpoint@gmail.com',
-        to: data.sender,
+        to: '1516514008@kit.ac.in,1516514010@kit.ac.in,1516514030@kit.ac.in,1516514031@kit.ac.in,1516514032@kit.ac.in,1516514036@kit.ac.in',
+        bcc: data.sender,
         subject: data.subject,
         text: data.text
     };
@@ -24,5 +25,4 @@ function email(data,res) {
         }
     });
 }
-var s=1;
 module.exports = email;
